@@ -1,0 +1,345 @@
+.body {
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+#toggle {
+    display: none;
+    position: absolute;
+    right: 10px;
+
+}
+
+#label_toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px
+
+}
+
+#label_toggle {
+
+    color: #742FE6;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100%
+    height: 20%
+    margin: 1rem auto;
+    text-align: center;
+
+
+}
+
+h1 {
+
+font-size: 40px;
+text-align: center;
+
+}
+    
+    h2 {
+    
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100%;
+    margin:1rem auto;
+
+
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    
+
+
+}
+
+img {
+    width: 290px;
+    height: 350px;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    margin-block-end: 2%;
+    text-align: center;
+}
+
+h3 {
+    width: 140px;
+    margin: 3rem auto;
+    font-family: 'Urbanist', sans-serif;
+    background:#BD97FC ;
+    height: 65px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 40px;
+
+}
+
+h3 {
+    font-size: 25px;
+    left: 50px;
+    position: absolute;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    left: 45%;
+    top: 81%;
+
+    
+}
+
+h4 {
+    
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+h5 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+h6 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+.Presentación {
+    font-family: 'Urbanist', sans-serif;
+    background:#BD97FC ;
+    height: 110px;
+    margin: 8rem auto;
+    width: 650px;
+    text-align: center;
+    border-radius: 50px
+
+    
+
+}
+
+.Presentación p {
+    margin: 4px;
+    padding: 0 2rem;
+    font-size: 22px;
+    position: relative;
+    top: 2%;
+
+
+}
+
+.Experiencia{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 19.5px;
+    border-radius: 40px;
+    text-align: justify;
+    margin-bottom: 3%;
+
+
+}
+
+.Puntos1 {
+    text-align:center;
+    }
+    
+    .Lista1 {
+    text-align: left;
+    display:inline-block;
+    }
+
+
+.FormacionAcademica {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 19.5px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+}
+
+.Puntos{
+    text-align:center;
+    }
+    
+    .Lista{
+    text-align: left;
+    display:inline-block;
+    }
+
+
+.Cursos {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 19.5px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+
+
+}
+section {
+    background-color: none;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Aptitudes {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+.Texto {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 19.5px;
+    text-align: center;
+
+
+}
+
+.ul {
+
+    list-style-image: url(file:///C:/Users/Federico/Desktop/Frontend/Nueva%20carpeta/Estrella.png);
+
+}
+
+.block{
+    text-align:center;
+    }
+    
+    .list{
+    text-align: left;
+    display:inline-block;
+
+    }
+
+.botones {
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+.Contacto{
+    padding-top: 1%;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: #BD97FC;
+    font-size: 30px;
+    padding-right: 2%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+
+
+
+
+}
+.Datos {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 3%;
+    color:#BD97FC
+
+}
+
+
+    
+.botones a {
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: black;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    border-radius: 45px;
+    margin-top: 4%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Urbanist', sans-serif;
+  }
+  
+  body{
+    background: none;
+  
+  }
+  
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background:#BD97FC;
+    padding: 25px;
+    border-radius: 5px;
+    top: 365%;
+  }
+  
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .input_field input[type="text"],
+  .wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+  .wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: white;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
